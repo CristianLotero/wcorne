@@ -39,7 +39,7 @@
         lower_layer {
             bindings = <
 &kp TAB         &kp RA(Q)   &none   &none     &kp LBKT  &kp RBKT                           &kp ASTERISK  &kp  KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &kp BSPC
-&td_lshft_caps  &none   &none   &none     &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS    &kp PLUS      &kp KP_NUMBER_4   &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp N0        &kp EQUA
+&td_lshft_caps  &none   &none   &none     &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS    &kp PLUS      &kp KP_NUMBER_4   &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp N0        &kp EQUAL
 &kp LCTRL       &trans  &trans  &trans    &kp LBRC  &kp RBRC                            &kp MINUS     &kp KP_NUMBER_1   &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp DOT  &kp DOLLAR
                                 &kp LGUI  &trans          &kp SPACE                       &kp RET       &trans        &kp RALT
             >;
@@ -54,10 +54,10 @@
         };
         layer_3 {
             bindings = <
-&studio_unlock  &kp PIPE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LBKT  &kp RBKT              &kp RIGHT_PARENTHESIS    &kp PG_DOWN    &kp UP_ARROW      &kp PG_DOWN    &kp TILDE  &kp DELETE
-&kp LESS_THAN          &kp EXCL  &kp HASH  &kp AMPS  &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS       &kp AT                   &kp LEFT_ARROW       &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans  &trans
-&kp GREATER_THAN          &kp AT  &kp DLLR  &trans  &kp LBRC  &kp RBRC                                   &ext_power EP_ON         &ext_power EP_OFF    &kp QUESTION    &trans          &kp DOLLAR
-                                &trans  &trans  &kp SPACE                                      &kp ENTER       &trans     &kp RIGHT_ALT
+&studio_unlock      &kp PIPE    &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES  &kp LBKT  &kp RBKT              &kp RIGHT_PARENTHESIS    &kp PG_DOWN    &kp UP_ARROW      &kp PG_UP    &kp TILDE  &kp DELETE
+&kp LESS_THAN       &kp EXCL    &kp HASH  &kp AMPS    &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS       &kp AT                   &kp LEFT_ARROW       &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans  &trans
+&kp GREATER_THAN    &kp GRAVE      &kp DLLR  &trans      &kp LBRC  &kp RBRC                                   &ext_power EP_ON         &ext_power EP_OFF    &kp QUESTION    &trans          &kp DOLLAR
+                                &trans  &trans        &kp SPACE                                      &kp ENTER       &trans     &kp RIGHT_ALT
             >;
         };
     };
