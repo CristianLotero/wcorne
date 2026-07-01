@@ -54,7 +54,7 @@
         };
         layer_3 {
             bindings = <
-&studio_unlock      &kp PIPE    &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES  &kp LBKT  &kp RBKT              &kp RIGHT_PARENTHESIS    &kp PG_DOWN    &kp UP_ARROW      &kp PG_UP    &kp TILDE  &kp DELETE
+&studio_unlock      &kp PIPE    &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES  &kp LBKT  &kp RBKT              &kp RIGHT_PARENTHESIS    &kp PG_DN    &kp UP_ARROW      &kp PG_UP    &kp TILDE  &kp DELETE
 &kp LESS_THAN       &kp EXCL    &kp HASH  &kp AMPS    &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS       &kp AT                   &kp LEFT_ARROW       &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans  &trans
 &kp GREATER_THAN    &kp GRAVE      &kp DLLR  &trans      &kp LBRC  &kp RBRC                                   &ext_power EP_ON         &ext_power EP_OFF    &kp QUESTION    &trans          &kp DOLLAR
                                 &trans  &trans        &kp SPACE                                      &kp ENTER       &trans     &kp RIGHT_ALT
